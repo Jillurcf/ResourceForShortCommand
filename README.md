@@ -4,5 +4,6 @@
 - for .ipa file for ios: eas build -p ios --profile development
 - for .apk android : eas build -p android --profile development
 - for moving the keStore file to the app: mv ~/my-upload-key.keystore android/app/my-upload-key.keystore
+- Open Power Shell in the Mac : echo $SHELL
 
 
