@@ -5,5 +5,7 @@
 - for .apk android : eas build -p android --profile development
 - for moving the keStore file to the app: mv ~/my-upload-key.keystore android/app/my-upload-key.keystore
 - Open Power Shell in the Mac : echo $SHELL
+- Show a list of Simulator: xcrun simctl list devices
+
 
 
