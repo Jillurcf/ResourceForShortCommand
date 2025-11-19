@@ -52,13 +52,7 @@ A leading Robotic Process Automation (RPA) software that includes robust capabil
 - assetlinks.json
 # For wordpress we have to add these lines: 
  # Allow serving app-site association and JSON from .well-known
-<IfModule mod_headers.c>
-  <FilesMatch "(\.json|apple-app-site-association)$">
-    Header set Content-Type application/json
-  </FilesMatch>
-</IfModule>
-
-RewriteRule ^\.well-known/ - [L]
+- To ensure WordPress allows serving the .well-known directory and JSON files (including apple-app-site-association), add the following rules after the existing .htaccess: ref- dating or peach app readMe file instruction
 
 
 # for AndroidManifest.xml
