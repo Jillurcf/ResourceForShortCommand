@@ -51,14 +51,14 @@ A leading Robotic Process Automation (RPA) software that includes robust capabil
 - apple-app-site-association
 - assetlinks.json
 # For wordpress we have to add these lines: 
-- <IfModule mod_headers.c>
-- <FilesMatch "(\.json|apple-app-site-association)$">
-- Header set Content-Type application/json
-- </FilesMatch>
+ <IfModule mod_headers.c>
+ <FilesMatch "(\.json|apple-app-site-association)$">
+ Header set Content-Type application/json
+ </FilesMatch>
  </IfModule>
 
-- RewriteRule ^\.well-known/ - [L]
-- After 
+ RewriteRule ^\.well-known/ - [L]
+ After 
 - .htaccess
 
 # for AndroidManifest.xml
