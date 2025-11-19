@@ -56,6 +56,7 @@ A leading Robotic Process Automation (RPA) software that includes robust capabil
 
 
 # for AndroidManifest.xml
+- please see reference in the dating or peach app readME file
 - <intent-filter android:autoVerify="true">
     <action android:name="android.intent.action.VIEW"/>
     <category android:name="android.intent.category.DEFAULT"/>
