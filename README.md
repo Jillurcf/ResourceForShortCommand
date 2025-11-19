@@ -58,7 +58,7 @@ A leading Robotic Process Automation (RPA) software that includes robust capabil
 </IfModule>
 
 RewriteRule ^\.well-known/ - [L]
-# After 
+- After 
 - .htaccess
 
 # for AndroidManifest.xml
