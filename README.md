@@ -68,5 +68,20 @@ A leading Robotic Process Automation (RPA) software that includes robust capabil
 # For iOS in entitlements 
 - applinks: yourdomain.com
 
-
+## Multi slider
+-https://www.npmjs.com/package/@ptomasroos/react-native-multi-slider
+-<MultiSlider
+                                values={[fromValue, toValue]} // Set initial values for the range slider
+                                min={18} // Minimum value for the slider
+                                max={65} // Maximum value for the slider
+                                onValuesChange={values => {
+                                    setFromValue(values[0]); // Update the lower bound
+                                    setToValue(values[1]); // Update the upper bound
+                                }}
+                                sliderLength={Dimensions.get('window').width - 100} // Adjust slider length as needed
+                                selectedStyle={{ backgroundColor: '#05C3DD' }} // Style for the selected range
+                                unselectedStyle={{ backgroundColor: '#B0BEC5' }} // Style for the unselected range
+                                step={1} // Increment step for the slider
+                                markerStyle={{ backgroundColor: '#05C3DD' }} // Custom marker color
+                            />
 
