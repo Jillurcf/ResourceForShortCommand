@@ -84,4 +84,26 @@ A leading Robotic Process Automation (RPA) software that includes robust capabil
                                 step={1} // Increment step for the slider
                                 markerStyle={{ backgroundColor: '#05C3DD' }} // Custom marker color
                             />
-
+## VS CODE SETTINGS.json
+{
+    // ...
+"tailwindCSS.classAttributes": [
+  "class",
+  "className",
+  "tw",
+  "style"
+],
+"tailwindCSS.experimental.classRegex": [
+    "tw`([^`]*)",
+    ["tw.style\\(([^)]*)\\)", "'([^']*)'"]
+],
+"tailwindCSS.includeLanguages": {
+    "javascript": "javascript",
+    "javascriptreact": "javascript",
+    "typescript": "typescript",
+    "typescriptreact": "typescript"
+  },
+  "editor.quickSuggestions": {
+    "strings": true
+  }
+}
